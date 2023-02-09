@@ -1,3 +1,8 @@
+/*
+    Aqui se encontra o algoritmo em javascript do programa analisador de números
+    
+*/
+
 let box = []
 function adicionar() {
     let num = Number(window.document.getElementById("num").value)
