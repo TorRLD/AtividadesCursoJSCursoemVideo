@@ -9,7 +9,7 @@
 
 <h2> Conteúdos </h2>
 
-<p> Neste repostório contém códigos referentes a 16 aulas e mais os exercícios propostos pelo curso de Javascript pela plataforma Curso em Video. </p>
+<p> Neste repostório contém códigos referentes às aulas e mais os exercícios propostos pelo curso de Javascript pela plataforma Curso em Video. </p>
 
 <p> E esses conteúdos são: </p>
 
