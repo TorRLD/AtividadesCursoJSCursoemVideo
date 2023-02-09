@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuaNacionalidade</title>
+</head>
+
+<body>
+    <h1>Você é Brasileiro?</h1>
+    Informe o país onde nasceu: <input type="text" id="pais">
+    <input type="button" value="Verificar" onclick="nacional()">
+    <div id="ident"></div>
+    <script>
+        //mensagem a ser exibida
+        var nacio = window.document.querySelector("div#ident")
+        function nacional() {
+            //país de entrada
+            var idet = window.document.querySelector("input#pais")
+
+
+            nacio.innerHTML = `<p>Seu país de origem é <strong>${idet.value}</strong></p>`
+            if (idet.value == "Brasil") {
+
+                nacio.innerHTML += `<p>Você é <strong>brasileiro</strong></p>`
+            } else {
+                nacio.innerHTML += `<p>Você é <strong>estrangeiro</strong></p>`
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
