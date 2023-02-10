@@ -1,3 +1,10 @@
+/*
+   Estudo sobre vetores juntamente com condicionais
+
+    Por: Heitor Lemos
+*/
+
+
 let variavel = []
 variavel.push(5)
 variavel.sort()
